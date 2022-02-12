@@ -79,6 +79,8 @@ gdb.execute('quit')
 ```x86asm
 gdb -q ./ss
 
+disassemble /m -> print source code if compiled with symbols.
+
 disp/5i $pc
 
 set disassembly-flavor intel
